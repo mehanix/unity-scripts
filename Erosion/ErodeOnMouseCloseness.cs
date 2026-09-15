@@ -1,3 +1,9 @@
+/**
+ * PeripheralDissolve (ErodeOnMouseCloseness.cs)
+ * 
+ * Description: Dynamically adjusts material erosion (`_ErosionLevel`) based on 2D screen distance between the mouse cursor and the object.
+ * Usage: Attach to a GameObject with a Renderer using the Erosion Shader Graph material. Set safeDistance in the Inspector. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

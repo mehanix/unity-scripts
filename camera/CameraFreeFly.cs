@@ -1,3 +1,9 @@
+/**
+ * FreeFlyCamera (CameraFreeFly.cs)
+ * 
+ * Description: Provides a spectator-style fly camera with mouse look (Right Mouse Button) and 3D keyboard movement (WASD/Arrows + Q/E for vertical).
+ * Usage: Attach to a Main Camera object. Configure moveSpeed and lookSpeed in the Inspector. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

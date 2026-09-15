@@ -1,3 +1,9 @@
+/**
+ * SimpleOrbit (CameraOrbitControls.cs)
+ * 
+ * Description: Enables orbiting a camera around a target Transform (or world origin) by holding Right Mouse Button and dragging.
+ * Usage: Attach to a Main Camera. Assign a target Transform in the Inspector (leave null to orbit world origin). Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

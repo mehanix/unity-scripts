@@ -1,3 +1,9 @@
+/**
+ * MouseShockwave (ClickExplosion.cs)
+ * 
+ * Description: Triggers a 3D explosion force at the raycast hit point when left-clicking, blasting nearby Rigidbodies outward.
+ * Usage: Attach to a manager GameObject or Main Camera. Ensure scene objects have Rigidbody and Collider components. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

@@ -1,3 +1,9 @@
+/**
+ * Lifespan (TimeToLive.cs)
+ * 
+ * Description: Automatically destroys the attached GameObject after a specified duration (time to live) in seconds.
+ * Usage: Attach to temporary GameObjects like spawned projectiles, floating text, or particles. Adjust timeToLive in the Inspector.
+ */
 using UnityEngine;
 
 public class Lifespan : MonoBehaviour

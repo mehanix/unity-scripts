@@ -1,3 +1,9 @@
+/**
+ * AutoRotate (Turntable.cs)
+ * 
+ * Description: Continuously rotates the GameObject around specified local axes at a constant framerate-independent speed.
+ * Usage: Attach to any 3D object transform (turntables, collectibles, background elements). Adjust rotationSpeed in the Inspector.
+ */
 using UnityEngine;
 
 public class AutoRotate : MonoBehaviour

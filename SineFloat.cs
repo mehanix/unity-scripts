@@ -1,3 +1,9 @@
+/**
+ * OrganicFloat (SineFloat.cs)
+ * 
+ * Description: Smoothly bobs the GameObject up and down along the Y axis using a mathematical sine wave.
+ * Usage: Attach to any 3D or 2D GameObject transform. Tweak floatSpeed and floatHeight in the Inspector.
+ */
 using UnityEngine;
 
 public class OrganicFloat : MonoBehaviour

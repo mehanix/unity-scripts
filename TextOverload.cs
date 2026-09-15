@@ -1,3 +1,9 @@
+/**
+ * TextOverload (TextOverload.cs)
+ * 
+ * Description: Captures keyboard typing character by character and spawns randomized TextMeshPro UI text elements on screen when words complete.
+ * Usage: Attach to a manager object. Assign a TextMeshProUGUI prefab to textPrefab and set mainCanvas in the Inspector. Requires TextMeshPro package.
+ */
 using UnityEngine;
 using TMPro;
 

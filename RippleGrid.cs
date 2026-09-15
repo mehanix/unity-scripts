@@ -1,3 +1,9 @@
+/**
+ * DistanceRipple (RippleGrid.cs)
+ * 
+ * Description: Modifies the vertical scale (Y) of the GameObject using a sine wave relative to its distance from the mouse cursor to produce a ripple effect.
+ * Usage: Attach to objects arranged in a grid or matrix. Adjust rippleHeight in the Inspector. Requires Unity Input System and Main Camera.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

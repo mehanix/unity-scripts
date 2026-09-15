@@ -1,3 +1,9 @@
+/**
+ * FollowCursor (MouseFollower.cs)
+ * 
+ * Description: Instantly snaps the GameObject position to match the mouse cursor's 3D position projected into the world.
+ * Usage: Attach to any GameObject transform. Set depthFromCamera in the Inspector. Requires Unity Input System and Main Camera.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

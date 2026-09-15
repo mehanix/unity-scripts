@@ -1,3 +1,9 @@
+/**
+ * MicGravity (FloatByMicrophone.cs)
+ * 
+ * Description: Reads audio volume spectrum from the default microphone and applies upward physics force to lift the GameObject when sound is detected.
+ * Usage: Attach to a GameObject with Rigidbody and AudioSource components. Requires microphone hardware access. Adjust liftPower in Inspector.
+ */
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]

@@ -1,3 +1,9 @@
+/**
+ * CursorCrush (MouseRaycastInteract.cs)
+ * 
+ * Description: Casts a ray from the mouse position and increases the mass of any target Rigidbody hit by the cursor.
+ * Usage: Attach to a manager object or Main Camera. Ensure target objects have Collider and Rigidbody components. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

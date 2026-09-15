@@ -1,3 +1,9 @@
+/**
+ * SmoothFollowCursor (MouseTail.cs)
+ * 
+ * Description: Smoothly interpolates (Lerps) the GameObject's position toward the mouse cursor's 3D world position to create a laggy tail effect.
+ * Usage: Attach to any 3D object transform. Adjust followSpeed and depth in the Inspector. Requires Unity Input System and Main Camera.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

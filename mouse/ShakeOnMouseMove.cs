@@ -1,3 +1,9 @@
+/**
+ * MouseShake (ShakeOnMouseMove.cs)
+ * 
+ * Description: Vibrates/shakes the GameObject relative to its initial position proportional to the mouse speed, snapping back smoothly when stopped.
+ * Usage: Attach to any object (UI element or 3D mesh transform). Adjust shakeIntensity in the Inspector. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

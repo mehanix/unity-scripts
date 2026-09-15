@@ -1,5 +1,10 @@
+/**
+ * RandomNeonColor (RandomNeonColorrGlow.cs)
+ * 
+ * Description: Assigns a random vibrant HSV color and matching URP emission glow intensity to the object's material on start.
+ * Usage: Attach to a GameObject with a Renderer. The material must use a shader with "_EmissionColor" enabled (e.g. URP/Lit). Adjust glowIntensity in Inspector.
+ */
 using UnityEngine;
-// The material on the object must have "Emission" turned on in URP for the glow to work.
 public class RandomNeonColor : MonoBehaviour
 {
     public float glowIntensity = 3f;

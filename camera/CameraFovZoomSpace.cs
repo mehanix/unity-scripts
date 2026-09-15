@@ -1,3 +1,9 @@
+/**
+ * CameraVertigo (CameraFovZoomSpace.cs)
+ * 
+ * Description: Smoothly transitions the Main Camera's field of view (FOV) to create a zoom/vertigo effect when holding Spacebar.
+ * Usage: Attach to any GameObject or Main Camera. Adjust normalFOV, panicFOV, and warpSpeed in the Inspector. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 

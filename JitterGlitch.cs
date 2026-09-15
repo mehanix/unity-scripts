@@ -1,3 +1,9 @@
+/**
+ * GlitchScale (JitterGlitch.cs)
+ * 
+ * Description: Randomly scales a GameObject over time using 1D Perlin noise to produce a glitching/jittering visual effect.
+ * Usage: Attach to any 3D transform object. Customize speed and maxScale parameters in the Inspector.
+ */
 using UnityEngine;
 
 public class GlitchScale : MonoBehaviour

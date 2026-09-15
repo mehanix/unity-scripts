@@ -1,3 +1,9 @@
+/**
+ * LookAtCursor (LookAtCursor.cs)
+ * 
+ * Description: Rotates the GameObject to continuously face the mouse cursor's calculated position in 3D world space.
+ * Usage: Attach to any 3D object transform. Requires a Main Camera in the scene and Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem; // Required for the new system
 

@@ -1,3 +1,9 @@
+/**
+ * DreamPhysics (DreamPhysics.cs)
+ * 
+ * Description: Slows down Unity engine time scale and lowers global gravity to simulate underwater/dreamlike physics. Resets settings on destruction.
+ * Usage: Attach to a scene manager object. Adjust timeSpeed and dreamGravity in the Inspector.
+ */
 using UnityEngine;
 
 public class DreamPhysics : MonoBehaviour

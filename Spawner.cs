@@ -1,3 +1,9 @@
+/**
+ * ContinuousSpawner (Spawner.cs)
+ * 
+ * Description: Continuously instantiates a specified prefab object at a fixed time interval with random spatial position offsets.
+ * Usage: Attach to a spawner transform. Drag a prefab into objectToSpawn and adjust spawnRateSeconds and randomOffset in the Inspector.
+ */
 using UnityEngine;
 
 public class ContinuousSpawner : MonoBehaviour

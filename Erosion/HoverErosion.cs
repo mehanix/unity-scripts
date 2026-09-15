@@ -1,3 +1,9 @@
+/**
+ * HoverErosion (HoverErosion.cs)
+ * 
+ * Description: Casts a ray to detect cursor hovering, steadily eroding the object's material shader (`_ErosionLevel`) while hovered and restoring it when unhovered.
+ * Usage: Attach to a 3D object with a Collider and a Renderer using the Erosion Shader Graph material. Adjust erodeSpeed in the Inspector. Requires Unity Input System.
+ */
 using UnityEngine;
 using UnityEngine.InputSystem;
 
